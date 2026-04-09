@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== PRIMARY SEO META TAGS ===== -->
+  <title>Swara Travels | Outstation Cab Booking Maharashtra – Mumbai, Pune, Nashik, Solapur</title>
+  <meta name="description" content="Book affordable outstation cab in Maharashtra. Mumbai to Nashik, Pune, Solapur, Ashtavinayak Yatra & more. AC cars, fixed rates, no surge pricing. WhatsApp booking: 8104050420." />
+  <meta name="keywords" content="outstation cab Mumbai, taxi service Maharashtra, cab booking Maharashtra, Mumbai Pune cab, Ashtavinayak tour cab, Nashik outstation taxi, Solapur cab booking, cab cheaper than Uber outstation, private taxi Maharashtra, one way cab Mumbai" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://swaratravels.vercel.app/index.html" />
+
+  <!-- Open Graph (WhatsApp / Social sharing) -->
+  <meta property="og:title" content="Swara Travels | Outstation Cab Booking Maharashtra" />
+  <meta property="og:description" content="Affordable outstation taxi in Maharashtra. No surge pricing. Fixed rates. Ashtavinayak, Nashik, Solapur tours. Book on WhatsApp: 8104050420" />
+  <meta property="og:url" content="https://swaratravels.vercel.app/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  <!-- ===== LOCAL BUSINESS SCHEMA ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Swara Travels",
+    "description": "Affordable outstation cab and taxi service across Maharashtra. Specializing in Ashtavinayak Yatra, Nashik Tour, Solapur Tour, and all outstation trips from Mumbai and Pune.",
+    "url": "https://swaratravels.vercel.app",
+    "telephone": "+918104050420",
+    "email": "swaratravels4453@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mumbai",
+      "addressRegion": "Maharashtra",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "19.0760",
+      "longitude": "72.8777"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "priceRange": "₹₹",
+    "areaServed": ["Mumbai", "Pune", "Nashik", "Solapur", "Maharashtra"],
+    "serviceType": ["Outstation Cab", "Taxi Service", "Tour Packages", "Airport Transfers"],
+    "sameAs": ["https://www.instagram.com/swaratravels4453/"],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "5",
+      "reviewCount": "48"
+    }
+  }
+  </script>
+
+  <!-- ===== FAQ SCHEMA (Homepage) ===== -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How to book outstation cab in Maharashtra?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can book an outstation cab with Swara Travels by WhatsApp at 8104050420 or using the online booking form on our website. We provide service from Mumbai, Pune to Nashik, Solapur, Ashtavinayak and all major Maharashtra destinations."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Is Swara Travels cheaper than Uber for outstation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Swara Travels offers fixed outstation rates with no surge pricing. Unlike Uber or Ola which charge surge pricing during festivals and peak hours, Swara Travels gives you a confirmed fixed fare before your trip starts."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What cars are available for outstation trips?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Swara Travels offers Xcent Prime, Swift Dzire, WagonR (4-seater sedans) and Ertiga, Kia Carens, Chevrolet Enjoy (6-seater SUVs/MPVs) for outstation and tour trips across Maharashtra."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --saffron: #E8690A;
+      --saffron-light: #FFF3E8;
+      --deep: #1A1A2E;
+      --text: #222;
+      --muted: #666;
+      --border: #E5E5E5;
+      --white: #fff;
+      --green: #1A7A4A;
+      --green-light: #E8F5EE;
+      --red: #C0392B;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Poppins', sans-serif; color: var(--text); background: #fff; }
+    a { text-decoration: none; color: inherit; }
+
+    /* NAV */
+    nav { background: var(--deep); padding: 0 5%; display: flex; align-items: center; justify-content: space-between; height: 60px; position: sticky; top: 0; z-index: 100; }
+    .nav-logo { color: #fff; font-size: 1.1rem; font-weight: 700; }
+    .nav-logo span { color: var(--saffron); }
+    .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+    .nav-links a { color: rgba(255,255,255,0.85); font-size: 0.82rem; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--saffron); }
+    .nav-book-btn { background: var(--saffron); color: #fff !important; padding: 7px 16px; border-radius: 6px; font-weight: 600; font-size: 0.82rem !important; }
+    .dropdown { position: relative; }
+    .dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: var(--deep); border-top: 2px solid var(--saffron); min-width: 180px; z-index: 200; }
+    .dropdown:hover .dropdown-menu { display: block; }
+    .dropdown-menu a { display: block; padding: 10px 16px; font-size: 0.82rem; color: rgba(255,255,255,0.85); border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .dropdown-menu a:hover { background: rgba(232,105,10,0.15); color: var(--saffron); }
+    .ham { display: none; color: #fff; font-size: 1.4rem; cursor: pointer; }
+
+    /* HERO */
+    .hero { background: linear-gradient(135deg, #1A1A2E 0%, #16213E 60%, #0F3460 100%); padding: 4rem 5% 3.5rem; text-align: center; position: relative; overflow: hidden; }
+    .hero::before { content: ''; position: absolute; inset: 0; background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60"><circle cx="30" cy="30" r="1" fill="rgba(232,105,10,0.15)"/></svg>') repeat; }
+    .hero-badge { display: inline-block; background: rgba(232,105,10,0.15); border: 1px solid rgba(232,105,10,0.4); color: #FF9A50; font-size: 0.75rem; font-weight: 600; padding: 5px 14px; border-radius: 20px; margin-bottom: 1rem; letter-spacing: 0.05em; position: relative; }
+    .hero h1 { color: #fff; font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 700; line-height: 1.25; margin-bottom: 0.75rem; position: relative; }
+    .hero h1 span { color: var(--saffron); }
+    .hero p { color: rgba(255,255,255,0.7); font-size: 0.95rem; margin-bottom: 1.5rem; max-width: 540px; margin-left: auto; margin-right: auto; position: relative; }
+    .hero-btns { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; position: relative; }
+    .btn-primary { background: var(--saffron); color: #fff; padding: 12px 28px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px; transition: background 0.2s, transform 0.15s; }
+    .btn-primary:hover { background: #c85a08; transform: translateY(-1px); }
+    .btn-wa { background: #25D366; color: #fff; padding: 12px 28px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; display: inline-flex; align-items: center; gap: 6px; transition: background 0.2s, transform 0.15s; }
+    .btn-wa:hover { background: #1DA851; transform: translateY(-1px); }
+    .hero-stats { display: flex; justify-content: center; gap: 2rem; margin-top: 2.5rem; flex-wrap: wrap; position: relative; }
+    .stat { text-align: center; }
+    .stat strong { display: block; color: var(--saffron); font-size: 1.4rem; font-weight: 700; }
+    .stat span { color: rgba(255,255,255,0.6); font-size: 0.75rem; }
+
+    /* BOOKING FORM */
+    .booking-section { background: var(--saffron-light); padding: 2.5rem 5%; }
+    .booking-section h2 { text-align: center; font-size: 1.3rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--deep); }
+    .booking-section h2 span { color: var(--saffron); }
+    .booking-form { background: #fff; border-radius: 12px; padding: 1.5rem; max-width: 700px; margin: 0 auto; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 12px; }
+    .form-group { display: flex; flex-direction: column; gap: 5px; }
+    .form-group label { font-size: 0.78rem; font-weight: 600; color: var(--muted); }
+    .form-group select, .form-group input { border: 1px solid var(--border); border-radius: 6px; padding: 10px 12px; font-size: 0.88rem; font-family: 'Poppins', sans-serif; outline: none; transition: border-color 0.2s; }
+    .form-group select:focus, .form-group input:focus { border-color: var(--saffron); }
+    .form-submit { width: 100%; background: var(--saffron); color: #fff; border: none; border-radius: 8px; padding: 13px; font-size: 0.95rem; font-weight: 600; cursor: pointer; font-family: 'Poppins', sans-serif; transition: background 0.2s; margin-top: 4px; }
+    .form-submit:hover { background: #c85a08; }
+
+    /* SECTION COMMON */
+    section { padding: 3rem 5%; }
+    .sec-title { font-size: 1.5rem; font-weight: 700; color: var(--deep); margin-bottom: 0.4rem; }
+    .sec-sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    .sec-header { text-align: center; margin-bottom: 2rem; }
+
+    /* TOURS GRID */
+    .tours-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.2rem; }
+    .tour-card { border: 1px solid var(--border); border-radius: 12px; overflow: hidden; transition: box-shadow 0.2s, transform 0.2s; background: #fff; }
+    .tour-card:hover { box-shadow: 0 8px 24px rgba(0,0,0,0.1); transform: translateY(-3px); }
+    .tour-card-header { background: var(--deep); padding: 1.4rem; color: #fff; }
+    .tour-card-header .tag { font-size: 0.7rem; background: rgba(232,105,10,0.25); color: #FF9A50; padding: 3px 10px; border-radius: 20px; display: inline-block; margin-bottom: 8px; font-weight: 600; }
+    .tour-card-header h3 { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+    .tour-card-header p { font-size: 0.78rem; color: rgba(255,255,255,0.65); }
+    .tour-card-body { padding: 1rem 1.2rem; }
+    .tour-highlights { list-style: none; margin-bottom: 1rem; }
+    .tour-highlights li { font-size: 0.82rem; color: var(--muted); padding: 4px 0; border-bottom: 1px solid #F5F5F5; display: flex; gap: 8px; }
+    .tour-highlights li::before { content: '✓'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .tour-book-btn { display: block; text-align: center; background: var(--saffron-light); color: var(--saffron); border: 1px solid var(--saffron); border-radius: 6px; padding: 9px; font-size: 0.83rem; font-weight: 600; transition: background 0.2s, color 0.2s; }
+    .tour-book-btn:hover { background: var(--saffron); color: #fff; }
+
+    /* UBER COMPARISON SECTION */
+    .vs-section { background: #F7F9FC; padding: 3rem 5%; }
+    .vs-section .sec-header { text-align: left; }
+    .vs-section .sec-title { font-size: 1.4rem; }
+    .vs-badge { display: inline-block; background: #FDECEA; color: var(--red); font-size: 0.73rem; font-weight: 700; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px; letter-spacing: 0.04em; }
+    .compare-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2rem; margin-top: 1.5rem; }
+    .compare-card { border-radius: 12px; padding: 1.5rem; }
+    .compare-card.swara { background: var(--green-light); border: 2px solid var(--green); }
+    .compare-card.uber { background: #FFF5F5; border: 1px solid #F5C6C3; }
+    .compare-card h3 { font-size: 1rem; font-weight: 700; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px; }
+    .compare-card.swara h3 { color: var(--green); }
+    .compare-card.uber h3 { color: var(--red); }
+    .compare-list { list-style: none; }
+    .compare-list li { font-size: 0.83rem; padding: 6px 0; border-bottom: 1px solid rgba(0,0,0,0.06); display: flex; gap: 8px; align-items: flex-start; color: var(--text); }
+    .compare-list li:last-child { border-bottom: none; }
+    .ico-yes { color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .ico-no { color: var(--red); font-weight: 700; flex-shrink: 0; }
+    .vs-cta { margin-top: 1.5rem; background: var(--deep); color: #fff; padding: 1.2rem 1.5rem; border-radius: 10px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; }
+    .vs-cta p { font-size: 0.9rem; font-weight: 500; }
+    .vs-cta span { color: var(--saffron); }
+    .vs-cta a { background: #25D366; color: #fff; padding: 10px 22px; border-radius: 7px; font-weight: 600; font-size: 0.85rem; white-space: nowrap; }
+
+    /* CARS GRID */
+    .cars-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; }
+    .car-card { border: 1px solid var(--border); border-radius: 10px; overflow: hidden; background: #fff; transition: box-shadow 0.2s; }
+    .car-card:hover { box-shadow: 0 6px 18px rgba(0,0,0,0.09); }
+    .car-card img { width: 100%; height: 140px; object-fit: cover; }
+    .car-card-body { padding: 0.9rem; }
+    .car-card-body h3 { font-size: 0.92rem; font-weight: 700; margin-bottom: 4px; }
+    .car-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 8px; }
+    .car-tag { font-size: 0.7rem; background: var(--saffron-light); color: var(--saffron); padding: 2px 8px; border-radius: 12px; font-weight: 500; }
+    .car-card p { font-size: 0.78rem; color: var(--muted); margin-bottom: 10px; }
+    .car-book { display: block; text-align: center; background: #25D366; color: #fff; border-radius: 6px; padding: 8px; font-size: 0.8rem; font-weight: 600; }
+
+    /* FAQ */
+    .faq-section { background: #fff; }
+    .faq-list { max-width: 720px; margin: 0 auto; }
+    .faq-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 10px; overflow: hidden; }
+    .faq-q { padding: 1rem 1.2rem; font-size: 0.88rem; font-weight: 600; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: #fff; transition: background 0.2s; }
+    .faq-q:hover { background: var(--saffron-light); }
+    .faq-a { padding: 0 1.2rem 1rem; font-size: 0.83rem; color: var(--muted); line-height: 1.6; display: none; }
+    .faq-item.open .faq-a { display: block; }
+    .faq-item.open .faq-q { background: var(--saffron-light); color: var(--saffron); }
+    .faq-arrow { transition: transform 0.2s; font-size: 0.8rem; }
+    .faq-item.open .faq-arrow { transform: rotate(180deg); }
+
+    /* REVIEWS */
+    .reviews-section { background: var(--saffron-light); }
+    .reviews-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1rem; }
+    .review-card { background: #fff; border-radius: 10px; padding: 1.2rem; border: 1px solid var(--border); }
+    .stars { color: #F4A800; font-size: 0.85rem; margin-bottom: 6px; }
+    .review-text { font-size: 0.83rem; color: var(--text); margin-bottom: 10px; line-height: 1.55; font-style: italic; }
+    .reviewer { font-size: 0.78rem; font-weight: 600; color: var(--muted); }
+
+    /* FOOTER */
+    footer { background: var(--deep); color: rgba(255,255,255,0.75); padding: 2.5rem 5% 1.5rem; }
+    .footer-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 2rem; margin-bottom: 2rem; }
+    .footer-brand strong { color: #fff; font-size: 1rem; display: block; margin-bottom: 6px; }
+    .footer-brand p { font-size: 0.78rem; line-height: 1.6; }
+    .footer-col h4 { color: #fff; font-size: 0.85rem; font-weight: 600; margin-bottom: 10px; }
+    .footer-col a { display: block; font-size: 0.78rem; color: rgba(255,255,255,0.65); padding: 3px 0; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--saffron); }
+    .footer-bottom { border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; text-align: center; font-size: 0.75rem; }
+
+    /* MOBILE NAV */
+    .mobile-nav { display: none; flex-direction: column; background: var(--deep); padding: 0 5%; overflow: hidden; max-height: 0; transition: max-height 0.3s ease; }
+    .mobile-nav.open { max-height: 500px; }
+    .mobile-nav a { color: rgba(255,255,255,0.85); padding: 10px 0; font-size: 0.85rem; border-bottom: 1px solid rgba(255,255,255,0.08); }
+    .mobile-nav a:last-child { border-bottom: none; }
+
+    /* BOTTOM NAV MOBILE */
+    .bottom-nav { display: none; position: fixed; bottom: 0; left: 0; right: 0; background: var(--deep); border-top: 1px solid rgba(255,255,255,0.1); z-index: 200; }
+    .bottom-nav-inner { display: flex; }
+    .bottom-nav a { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 8px 0 6px; color: rgba(255,255,255,0.65); font-size: 0.6rem; gap: 3px; transition: color 0.2s; }
+    .bottom-nav a:hover { color: var(--saffron); }
+    .bottom-nav a .ico { font-size: 1.1rem; }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .ham { display: block; }
+      .mobile-nav { display: flex; }
+      .bottom-nav { display: block; }
+      body { padding-bottom: 58px; }
+      .form-row { grid-template-columns: 1fr; }
+      .compare-grid { grid-template-columns: 1fr; }
+      .vs-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a href="index.html" class="nav-logo">Swara <span>Travels</span></a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="book-cab.html" class="nav-book-btn">Book Cab</a>
+    <div class="dropdown">
+      <a href="#">Tours ▾</a>
+      <div class="dropdown-menu">
+        <a href="Ashtavinayak.html">🐘 Ashtavinayak Tour</a>
+        <a href="nashik.html">🛕 Nashik Tour</a>
+        <a href="solapur.html">🙏 Solapur Tour</a>
+      </div>
+    </div>
+    <a href="#why-us">Why Us</a>
+    <a href="reviews.html">Reviews</a>
+    <a href="contact.html">Contact</a>
+  </div>
+  <div class="ham" onclick="toggleNav()">☰</div>
+</nav>
+<div class="mobile-nav" id="mobileNav">
+  <a href="index.html">🏠 Home</a>
+  <a href="book-cab.html">🚕 Book Cab</a>
+  <a href="Ashtavinayak.html">🐘 Ashtavinayak Tour</a>
+  <a href="nashik.html">🛕 Nashik Tour</a>
+  <a href="solapur.html">🙏 Solapur Tour</a>
+  <a href="#why-us">⭐ Why Swara Travels</a>
+  <a href="reviews.html">💬 Reviews</a>
+  <a href="contact.html">📞 Contact</a>
+</div>
+
+<!-- HERO -->
+<section class="hero" aria-label="Hero - Cab booking Maharashtra">
+  <div class="hero-badge">🚗 Maharashtra's Trusted Outstation Cab Service</div>
+  <h1>Outstation Cab Booking <span>Maharashtra</span><br>No Surge. Fixed Rates. WhatsApp Easy.</h1>
+  <p>Mumbai · Pune · Nashik · Solapur · Ashtavinayak · Shirdi · Pandharpur — AC cabs available 24/7. No hidden charges. Book in 2 minutes on WhatsApp.</p>
+  <div class="hero-btns">
+    <a href="book-cab.html" class="btn-primary">📋 Book Online</a>
+    <a href="https://wa.me/918104050420?text=Hello Swara Travels, I want to book an outstation cab" class="btn-wa">💬 WhatsApp Now</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><strong>500+</strong><span>Trips Completed</span></div>
+    <div class="stat"><strong>5★</strong><span>Google Rating</span></div>
+    <div class="stat"><strong>0</strong><span>Surge Pricing</span></div>
+    <div class="stat"><strong>24/7</strong><span>Available</span></div>
+  </div>
+</section>
+
+<!-- BOOKING FORM -->
+<div class="booking-section" aria-label="Online cab booking form">
+  <h2>Book Your <span>Outstation Cab</span></h2>
+  <div class="booking-form">
+    <div class="form-row">
+      <div class="form-group">
+        <label for="pickup">Pickup City</label>
+        <select id="pickup">
+          <option value="">Select Pickup</option>
+          <option>Mumbai</option>
+          <option>Pune</option>
+          <option>Nashik</option>
+          <option>Solapur</option>
+          <option>Thane</option>
+          <option>Navi Mumbai</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="drop">Drop Destination</label>
+        <select id="drop">
+          <option value="">Select Destination</option>
+          <option>Nashik (Trimbakeshwar)</option>
+          <option>Solapur (Pandharpur)</option>
+          <option>Ashtavinayak Tour</option>
+          <option>Shirdi</option>
+          <option>Pune</option>
+          <option>Mumbai</option>
+          <option>Other</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="cartype">Car Type</label>
+        <select id="cartype">
+          <option>Swift Dzire / Xcent (4 Seater)</option>
+          <option>WagonR (Budget 4 Seater)</option>
+          <option>Ertiga / Kia Carens (6 Seater)</option>
+          <option>Chevrolet Enjoy (6 Seater)</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="date">Travel Date</label>
+        <input type="date" id="date" />
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Enter your name" />
+      </div>
+      <div class="form-group">
+        <label for="phone">Mobile Number</label>
+        <input type="tel" id="phone" placeholder="Enter mobile number" />
+      </div>
+    </div>
+    <button class="form-submit" onclick="sendBooking()">🚗 Send Booking on WhatsApp</button>
+  </div>
+</div>
+
+<!-- TOUR PACKAGES -->
+<section aria-label="Tour Packages Maharashtra">
+  <div class="sec-header">
+    <div class="sec-title">Popular Tour Packages</div>
+    <p class="sec-sub">Comfortable cab for every Maharashtra pilgrimage & destination</p>
+  </div>
+  <div class="tours-grid">
+    <div class="tour-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="tour-card-header">
+        <span class="tag">🐘 Religious Tour</span>
+        <h3 itemprop="name">Ashtavinayak Yatra</h3>
+        <p itemprop="description">8 Sacred Ganesh Temples · 654 km circuit</p>
+      </div>
+      <div class="tour-card-body">
+        <ul class="tour-highlights">
+          <li>All 8 temples covered – Morgaon to Ranjangaon</li>
+          <li>2-day comfortable trip from Mumbai/Pune</li>
+          <li>AC sedan or 6-seater SUV available</li>
+          <li>Experienced driver, fixed outstation fare</li>
+          <li>Best alternative to Uber for temple tours</li>
+        </ul>
+        <a href="Ashtavinayak.html" class="tour-book-btn">View Ashtavinayak Tour →</a>
+      </div>
+    </div>
+    <div class="tour-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="tour-card-header">
+        <span class="tag">🛕 Pilgrimage Tour</span>
+        <h3 itemprop="name">Nashik Tour</h3>
+        <p itemprop="description">Trimbakeshwar · Shirdi · Sula Vineyards</p>
+      </div>
+      <div class="tour-card-body">
+        <ul class="tour-highlights">
+          <li>Trimbakeshwar Jyotirlinga darshan</li>
+          <li>Shirdi Sai Baba covered on request</li>
+          <li>Mumbai to Nashik cab – best rates</li>
+          <li>Panchvati, Ramkund, Saptashrungi covered</li>
+          <li>No surge pricing unlike Ola/Uber</li>
+        </ul>
+        <a href="nashik.html" class="tour-book-btn">View Nashik Tour →</a>
+      </div>
+    </div>
+    <div class="tour-card" itemscope itemtype="https://schema.org/TouristTrip">
+      <div class="tour-card-header">
+        <span class="tag">🙏 Wari Tour</span>
+        <h3 itemprop="name">Solapur Tour</h3>
+        <p itemprop="description">Pandharpur · Akkalkot · Tuljapur</p>
+      </div>
+      <div class="tour-card-body">
+        <ul class="tour-highlights">
+          <li>Vitthal Rukmini Temple – Pandharpur</li>
+          <li>Swami Samarth Temple – Akkalkot</li>
+          <li>Tulja Bhavani – Shakti Peeth Tuljapur</li>
+          <li>Mumbai/Pune to Solapur outstation cab</li>
+          <li>Special Ashadhi Ekadashi season rates</li>
+        </ul>
+        <a href="solapur.html" class="tour-book-btn">View Solapur Tour →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY SWARA TRAVELS vs UBER/OLA -->
+<section class="vs-section" id="why-us" aria-label="Why Swara Travels is better than Uber Ola outstation">
+  <div class="sec-header">
+    <span class="vs-badge">⚡ UBER / OLA ALTERNATIVE</span>
+    <div class="sec-title">Why Choose Swara Travels Over Uber/Ola for Outstation?</div>
+    <p class="sec-sub" style="max-width:560px">Uber and Ola are great for city rides — but for outstation trips, private cab services like Swara Travels give you more value, comfort and reliability.</p>
+  </div>
+  <div class="compare-grid">
+    <div class="compare-card swara">
+      <h3>✅ Swara Travels</h3>
+      <ul class="compare-list">
+        <li><span class="ico-yes">✓</span> Fixed fare decided before trip — no surprises</li>
+        <li><span class="ico-yes">✓</span> Zero surge pricing even during festivals & peak hours</li>
+        <li><span class="ico-yes">✓</span> Direct WhatsApp booking — no app needed</li>
+        <li><span class="ico-yes">✓</span> Same driver throughout your entire trip</li>
+        <li><span class="ico-yes">✓</span> Driver knows Maharashtra roads & temple routes</li>
+        <li><span class="ico-yes">✓</span> Waiting time included for temple darshan</li>
+        <li><span class="ico-yes">✓</span> Ertiga & 6-seater SUVs for family trips</li>
+        <li><span class="ico-yes">✓</span> No cancellation by driver at last minute</li>
+        <li><span class="ico-yes">✓</span> Available Ashadhi Ekadashi, Ganesh Chaturthi season</li>
+      </ul>
+    </div>
+    <div class="compare-card uber">
+      <h3>❌ Uber / Ola Outstation</h3>
+      <ul class="compare-list">
+        <li><span class="ico-no">✗</span> Surge pricing 2x–4x on weekends & festivals</li>
+        <li><span class="ico-no">✗</span> Different driver assigned — no personal connect</li>
+        <li><span class="ico-no">✗</span> App required, mandatory internet always</li>
+        <li><span class="ico-no">✗</span> Driver may cancel outstation trips anytime</li>
+        <li><span class="ico-no">✗</span> Extra charges for waiting at temples</li>
+        <li><span class="ico-no">✗</span> Limited 6-seater or SUV availability outstation</li>
+        <li><span class="ico-no">✗</span> No flexibility on route changes</li>
+        <li><span class="ico-no">✗</span> Poor availability during Wari & Yatra seasons</li>
+        <li><span class="ico-no">✗</span> No direct contact with driver before trip</li>
+      </ul>
+    </div>
+  </div>
+  <div class="vs-cta">
+    <p>Ready to book a <span>better outstation cab</span> than Uber? Talk to us on WhatsApp now.</p>
+    <a href="https://wa.me/918104050420?text=Hello Swara Travels, I want to book an outstation cab. It's better than Uber!">💬 Book on WhatsApp</a>
+  </div>
+</section>
+
+<!-- OUR CARS -->
+<section aria-label="Our fleet of cars">
+  <div class="sec-header">
+    <div class="sec-title">Our Cars</div>
+    <p class="sec-sub">All AC vehicles — sedans and SUVs for every budget</p>
+  </div>
+  <div class="cars-grid" id="gallery">
+    <div class="car-card">
+      <img src="https://imgd.aeplcdn.com/664x374/ec/09/C6/12657/img/orig/Hyundai-Xcent-Right-Front-Three-Quater-25662.jpg?v=201711021421&q=80" alt="Xcent Prime outstation cab Maharashtra" loading="lazy" />
+      <div class="car-card-body">
+        <h3>Xcent Prime</h3>
+        <div class="car-tags"><span class="car-tag">4 Seats</span><span class="car-tag">AC</span><span class="car-tag">T Permit</span></div>
+        <p>Comfortable sedan for outstation & city trips</p>
+        <a href="https://wa.me/918104050420?text=I want to book Xcent Prime" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+    <div class="car-card">
+      <img src="https://imgd.aeplcdn.com/370x208/n/ues0egb_1840524.jpg?q=80" alt="Swift Dzire outstation taxi" loading="lazy" />
+      <div class="car-card-body">
+        <h3>Swift Dzire</h3>
+        <div class="car-tags"><span class="car-tag">4 Seats</span><span class="car-tag">AC</span></div>
+        <p>Reliable sedan for daily rides & outstation</p>
+        <a href="https://wa.me/918104050420?text=I want to book Swift Dzire" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+    <div class="car-card">
+      <img src="https://stimg.cardekho.com/images/car-images/large/Maruti/Wagon-R/8835/1646030706414/224_SOLID-WHITE_b0b1b5.jpg?impolicy=resize&imwidth=420" alt="WagonR cab booking" loading="lazy" />
+      <div class="car-card-body">
+        <h3>WagonR</h3>
+        <div class="car-tags"><span class="car-tag">4 Seats</span><span class="car-tag">AC</span><span class="car-tag">Budget</span></div>
+        <p>Budget-friendly for local & short outstation trips</p>
+        <a href="https://wa.me/918104050420?text=I want to book WagonR" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+    <div class="car-card">
+      <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Ertiga-Tour/9617/1762858404297/front-left-side-47.jpg" alt="Ertiga family cab outstation" loading="lazy" />
+      <div class="car-card-body">
+        <h3>Ertiga</h3>
+        <div class="car-tags"><span class="car-tag">6 Seats</span><span class="car-tag">AC</span><span class="car-tag">Family</span></div>
+        <p>Spacious family SUV for group travel</p>
+        <a href="https://wa.me/918104050420?text=I want to book Ertiga" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+    <div class="car-card">
+      <img src="https://stimg.cardekho.com/images/car-images/large/Kia/Carens/11623/1772787394998/Clear-White_aeaeae.jpg?impolicy=resize&imwidth=420" alt="Kia Carens premium outstation cab" loading="lazy" />
+      <div class="car-card-body">
+        <h3>Kia Carens</h3>
+        <div class="car-tags"><span class="car-tag">6 Seats</span><span class="car-tag">AC</span><span class="car-tag">Premium</span></div>
+        <p>Premium and spacious for comfortable journeys</p>
+        <a href="https://wa.me/918104050420?text=I want to book Kia Carens" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+    <div class="car-card">
+      <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Chevrolet/Chevrolet-Enjoy-2013-2015/2444/front-left-side-47.jpg?imwidth=420&impolicy=resize" alt="Chevrolet Enjoy group cab Maharashtra" loading="lazy" />
+      <div class="car-card-body">
+        <h3>Chevrolet Enjoy</h3>
+        <div class="car-tags"><span class="car-tag">6 Seats</span><span class="car-tag">AC</span></div>
+        <p>Strong and comfortable option for smooth rides</p>
+        <a href="https://wa.me/918104050420?text=I want to book Chevrolet Enjoy" class="car-book">💬 Book This Car</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq-section" aria-label="Frequently asked questions outstation cab Maharashtra">
+  <div class="sec-header">
+    <div class="sec-title">Frequently Asked Questions</div>
+    <p class="sec-sub">Common questions about outstation cab booking in Maharashtra</p>
+  </div>
+  <div class="faq-list">
+    <div class="faq-item open">
+      <div class="faq-q" onclick="toggleFaq(this)">How to book outstation cab with Swara Travels? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Simply WhatsApp us at 8104050420 or fill the online booking form above. Tell us your pickup city, destination, travel date and car preference. We confirm your booking with a fixed fare — no app needed, no surge pricing.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Is Swara Travels cheaper than Uber outstation? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Yes. Uber and Ola charge surge pricing during weekends, festivals (Ganesh Chaturthi, Ashadhi Ekadashi, Diwali) and peak hours. Swara Travels gives you a fixed outstation rate decided before your trip starts — no hidden charges, no surprises.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Do you cover Ashtavinayak Yatra from Mumbai? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Yes! We specialize in Ashtavinayak Yatra from Mumbai and Pune. The full 654 km circuit covering all 8 temples (Morgaon, Siddhatek, Pali, Mahad, Theur, Lenyadri, Ozar, Ranjangaon) is available in a 2-day comfortable package. WhatsApp us for pricing.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">What are your cab rates per km? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Our outstation rates vary by car type and distance. Sedan (Dzire/Xcent) starts at ₹12–14/km and 6-seater SUV (Ertiga/Carens) at ₹16–18/km for outstation trips. All rates are fixed — no surge ever. WhatsApp for exact quote for your route.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Do you have cabs available during Ashadhi Ekadashi / Pandharpur Wari? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Yes, we specifically ensure availability during major Wari seasons and festivals. Unlike Uber/Ola which may show surge or unavailability, Swara Travels has pre-booked slots for Ashadhi Ekadashi, Kartiki Ekadashi and other pilgrimage seasons. Book in advance to confirm your slot.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q" onclick="toggleFaq(this)">Can I book one-way outstation cab? <span class="faq-arrow">▼</span></div>
+      <div class="faq-a">Yes. We offer both one-way and round-trip outstation packages. One-way cab from Mumbai to Nashik, Mumbai to Pune, or Mumbai to Solapur is available at best rates. WhatsApp us to get your one-way fare.</div>
+    </div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="reviews-section" aria-label="Customer reviews Swara Travels">
+  <div class="sec-header">
+    <div class="sec-title">What Our Customers Say</div>
+    <p class="sec-sub">Real reviews from satisfied travellers</p>
+  </div>
+  <div class="reviews-grid" itemscope itemtype="https://schema.org/Product">
+    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+      <div class="stars">★★★★★</div>
+      <p class="review-text" itemprop="reviewBody">"Booked Ashtavinayak Yatra cab from Mumbai. Driver knew all temples perfectly, waited patiently at each one. Much better than Uber — fixed price no tension!"</p>
+      <span class="reviewer" itemprop="author">— Rahul Patil, Mumbai</span>
+    </div>
+    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+      <div class="stars">★★★★★</div>
+      <p class="review-text" itemprop="reviewBody">"Nashik Trimbakeshwar trip was amazing. WhatsApp booking too easy, no app needed. AC car, on-time pickup, best price. Will book again for Shirdi!"</p>
+      <span class="reviewer" itemprop="author">— Sneha Jadhav, Pune</span>
+    </div>
+    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+      <div class="stars">★★★★★</div>
+      <p class="review-text" itemprop="reviewBody">"Pandharpur tour for Ashadhi Ekadashi. Swara Travels was available when Ola Uber showing surge price. Fixed rate, clean Ertiga, very professional driver."</p>
+      <span class="reviewer" itemprop="author">— Ganesh Kulkarni, Nashik</span>
+    </div>
+    <div class="review-card" itemscope itemtype="https://schema.org/Review">
+      <div class="stars">★★★★★</div>
+      <p class="review-text" itemprop="reviewBody">"Family trip to Akkalkot and Solapur. 6 of us in Ertiga, very comfortable. Driver was very polite and helpful. Highly recommend Swara Travels for outstation."</p>
+      <span class="reviewer" itemprop="author">— Sunita Desai, Mumbai</span>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <strong>Swara Travels</strong>
+      <p>Safe, Comfortable & Affordable Outstation Cab Service across Maharashtra. No surge pricing. Fixed rates. WhatsApp booking available 24/7.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Tour Packages</h4>
+      <a href="Ashtavinayak.html">Ashtavinayak Yatra Tour</a>
+      <a href="nashik.html">Nashik Trimbakeshwar Tour</a>
+      <a href="solapur.html">Solapur Pandharpur Tour</a>
+      <a href="book-cab.html">Book Outstation Cab</a>
+    </div>
+    <div class="footer-col">
+      <h4>Popular Routes</h4>
+      <a href="#">Mumbai to Nashik Cab</a>
+      <a href="#">Mumbai to Solapur Cab</a>
+      <a href="#">Mumbai to Pune Cab</a>
+      <a href="#">Pune to Shirdi Cab</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <a href="tel:8104050420">📞 8104050420</a>
+      <a href="https://wa.me/918104050420">💬 WhatsApp</a>
+      <a href="mailto:swaratravels4453@gmail.com">✉️ swaratravels4453@gmail.com</a>
+      <a href="https://www.instagram.com/swaratravels4453/">📸 Instagram</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    © 2026 Swara Travels, Mumbai, Maharashtra. All Rights Reserved. | Outstation Cab Service Maharashtra
+  </div>
+</footer>
+
+<!-- MOBILE BOTTOM NAV -->
+<nav class="bottom-nav" aria-label="Mobile navigation">
+  <div class="bottom-nav-inner">
+    <a href="index.html"><span class="ico">🏠</span>Home</a>
+    <a href="book-cab.html"><span class="ico">🚕</span>Book</a>
+    <a href="Ashtavinayak.html"><span class="ico">🐘</span>Tours</a>
+    <a href="https://wa.me/918104050420"><span class="ico">💬</span>WhatsApp</a>
+    <a href="reviews.html"><span class="ico">⭐</span>Reviews</a>
+  </div>
+</nav>
+
+<script>
+function toggleNav() {
+  const nav = document.getElementById('mobileNav');
+  nav.classList.toggle('open');
+}
+function toggleFaq(el) {
+  const item = el.parentElement;
+  item.classList.toggle('open');
+}
+function sendBooking() {
+  const pickup = document.getElementById('pickup').value || 'Not selected';
+  const drop = document.getElementById('drop').value || 'Not selected';
+  const car = document.getElementById('cartype').value || 'Not selected';
+  const date = document.getElementById('date').value || 'Not specified';
+  const name = document.getElementById('name').value || 'Not given';
+  const phone = document.getElementById('phone').value || 'Not given';
+  const msg = `Hello Swara Travels! I want to book a cab.\n\n🚗 Pickup: ${pickup}\n📍 Drop: ${drop}\n🚘 Car: ${car}\n📅 Date: ${date}\n👤 Name: ${name}\n📞 Phone: ${phone}\n\nPlease confirm availability and fare.`;
+  window.open('https://wa.me/918104050420?text=' + encodeURIComponent(msg), '_blank');
+}
+</script>
+</body>
+</html>
